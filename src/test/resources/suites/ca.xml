@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="" parallel="methods" thread-count="1">
+    <listeners>
+        <listener class-name="ru.projects.listeners.AnnotationTransformer"/>
+    </listeners>
+    <test name="">
+        <classes>
+            <class name="ru.projects.orb.api.ca.InformatorTest" />
+            <class name="ru.projects.orb.api.ca.RegisterTest" />
+        </classes>
+    </test>
+</suite>

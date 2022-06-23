@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="" parallel="methods" thread-count="1">
+    <listeners>
+        <listener class-name="ru.projects.listeners.AnnotationTransformer"/>
+    </listeners>
+    <test name="">
+        <classes>
+            <class name="ru.projects.orb.api.orb.address.AddressHintsTest" />
+            <class name="ru.projects.orb.api.orb.phone.CheckPhoneNumberTest" />
+            <class name="ru.projects.orb.api.orb.phone.CheckPhoneValidatedTest" />
+            <class name="ru.projects.orb.api.orb.phone.ValidationPhoneTest" />
+            <class name="ru.projects.orb.api.orb.request.CreateNewRequestTest" />
+            <class name="ru.projects.orb.api.orb.request.RequestTypesTest" />
+        </classes>
+    </test>
+</suite>
